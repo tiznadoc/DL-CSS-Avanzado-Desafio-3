@@ -3,3 +3,46 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.search {
+    grid-area: search;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    grid-area: main;
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+
+.footer {
+    grid-area: footer;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "header"
+    "search"
+    "main"
+    "footer";
+}
