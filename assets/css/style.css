@@ -13,6 +13,7 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: orange;
+    width: 100vw;
 }
 
 .search {
@@ -21,6 +22,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
 }
 
 .main {
@@ -32,9 +34,11 @@ ul {
 
 .footer {
     grid-area: footer;
+    display: flex;
     background-color: orange;
     align-items: center;
     justify-content: center;
+    width: 100vw;
 }
 
 .grid-container {
